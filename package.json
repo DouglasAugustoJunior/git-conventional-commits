@@ -5,9 +5,10 @@
     "type": "git",
     "url": "https://github.com/DouglasAugustoJunior/git-conventional-commits"
   },
-  "displayName": "Conventional Commits",
+  "displayName": "Git Conventional Commits",
   "description": "Extensão para formatar mensagens de commit com Conventional Commits",
-  "version": "0.0.1",
+  "icon": "images/icon.png",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.75.0"
   },
