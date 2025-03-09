@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "CommonJS",
+        "lib": ["es2015"],
+        "outDir": "./dist",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "types": ["vscode", "node"]
+    },
+    "include": [
+        "src/**/*.ts",
+        "test/**/*.ts"
+    ]
+}

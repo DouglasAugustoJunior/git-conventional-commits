@@ -1,0 +1,37 @@
+{
+  "name": "git-conventional-commits",
+  "publisher": "douglas-augusto",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "displayName": "Conventional Commits",
+  "description": "Extensão para formatar mensagens de commit com Conventional Commits",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "contributes": {
+    "commands": [
+      {
+        "command": "git-conventional-commits.open",
+        "title": "Abrir Conventional Commits"
+      }
+    ]
+  },
+  "main": "./dist/extension.js",
+  "scripts": {
+    "compile": "tsc",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^14.17.0",
+    "@types/vscode": "^1.75.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  }
+}
